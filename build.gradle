@@ -1,6 +1,6 @@
 plugins {
     id 'java'
-    id 'io.qameta.allure' version '2.10.0'
+    id 'io.qameta.allure' version '2.11.2'
 }
 
 allure {
@@ -26,7 +26,8 @@ dependencies {
     testImplementation(
             'org.junit.jupiter:junit-jupiter-engine:5.10.1',
             'com.codeborne:selenide:7.0.4',
-            'io.qameta.allure:allure-selenide:2.25.0'
+            'io.qameta.allure:allure-selenide:2.25.0',
+            'com.github.javafaker:javafaker:1.0.2'
     )
     runtimeOnly 'org.aspectj:aspectjweaver:1.9.21'
 
@@ -39,5 +40,11 @@ test {
 task simple_test(type: Test) {
     useJUnitPlatform {
         includeTags("simple")
+    }
+}
+
+task remote_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("remote")
     }
 }
