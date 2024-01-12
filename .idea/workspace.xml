@@ -58,6 +58,21 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="7d1290ee-2432-4ead-8f03-7c32673fd723" />
+        <option name="url" value="https://github.com/Samuseu/Jenkins.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -68,26 +83,26 @@
     <option name="showVisibilityIcons" value="true" />
     <option name="sortKey" value="BY_TIME_DESCENDING" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Jenkins [allureReport].executor": "Run",
-    "Gradle.Jenkins [allureServe].executor": "Run",
-    "Gradle.Jenkins [assemble].executor": "Run",
-    "Gradle.Jenkins [build].executor": "Run",
-    "Gradle.Jenkins [downloadAllure].executor": "Run",
-    "Gradle.Jenkins [init].executor": "Run",
-    "Gradle.Jenkins [simple_test].executor": "Run",
-    "Gradle.Jenkins [test].executor": "Run",
-    "Gradle.Jenkins [wrapper].executor": "Run",
-    "Gradle.RegistrationTests.practiceForm.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Влад/IdeaProjects/Jenkins/src/test/resources",
-    "onboarding.tips.debug.path": "C:/Users/Влад/IdeaProjects/Jenkins/src/main/java/qa/quru/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Jenkins [allureReport].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Jenkins [allureServe].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Jenkins [assemble].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Jenkins [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Jenkins [downloadAllure].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Jenkins [init].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Jenkins [simple_test].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Jenkins [test].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Jenkins [wrapper].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RegistrationTests.practiceForm.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Влад/IdeaProjects/Jenkins/src/test/resources&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Влад/IdeaProjects/Jenkins/src/main/java/qa/quru/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Влад\IdeaProjects\Jenkins\src\test\resources" />
