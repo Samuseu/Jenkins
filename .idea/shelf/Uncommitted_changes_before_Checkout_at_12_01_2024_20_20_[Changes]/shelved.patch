@@ -1,0 +1,16 @@
+Index: src/test/java/demoqa/tests/TestBase.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package demoqa.tests;\r\n\r\nimport com.codeborne.selenide.Configuration;\r\nimport com.codeborne.selenide.logevents.SelenideLogger;\r\nimport demoqa.data.TestData;\r\nimport demoqa.helpers.Attach;\r\nimport demoqa.pages.RegistrationPage;\r\nimport io.qameta.allure.selenide.AllureSelenide;\r\nimport org.checkerframework.checker.units.qual.C;\r\nimport org.junit.jupiter.api.AfterEach;\r\nimport org.junit.jupiter.api.BeforeAll;\r\nimport org.junit.jupiter.api.BeforeEach;\r\nimport org.openqa.selenium.remote.DesiredCapabilities;\r\n\r\nimport java.util.Map;\r\n\r\npublic class TestBase {\r\n    RegistrationPage registrationPage = new RegistrationPage();\r\n    TestData data = new TestData();\r\n\r\n\r\n    @BeforeAll\r\n    static void beforeAll() {\r\n        Configuration.baseUrl = \"https://demoqa.com\";\r\n        Configuration.browserSize = \"1920x1080\";\r\n        Configuration.remote = \"https://user1:1234@selenoid.autotests.cloud/wd/hub\";\r\n\r\n        DesiredCapabilities capabilities = new DesiredCapabilities();\r\n        capabilities.setCapability(\"browserName\", \"chrome\");\r\n        capabilities.setCapability(\"browserVersion\", \"100.0\");\r\n        capabilities.setCapability(\"selenoid:options\", Map.<String, Object>of(\r\n                \"enableVNC\", true,\r\n                \"enableVideo\", true\r\n        ));\r\n        Configuration.browserCapabilities = capabilities;\r\n    }\r\n    @BeforeEach\r\n    void addListener(){\r\n        SelenideLogger.addListener(\"AllureSelenide\",new AllureSelenide());\r\n    }\r\n    @AfterEach\r\n    void addAttachments(){\r\n        Attach.screenshotAs(\"Last screenshot\");\r\n        Attach.pageSource();\r\n        Attach.browserConsoleLogs();\r\n        //Attach.video();\r\n    }\r\n}\r\n
+===================================================================
+diff --git a/src/test/java/demoqa/tests/TestBase.java b/src/test/java/demoqa/tests/TestBase.java
+--- a/src/test/java/demoqa/tests/TestBase.java	
++++ b/src/test/java/demoqa/tests/TestBase.java	
+@@ -43,6 +43,6 @@
+         Attach.screenshotAs("Last screenshot");
+         Attach.pageSource();
+         Attach.browserConsoleLogs();
+-        //Attach.video();
++        Attach.addVideo();
+     }
+ }
