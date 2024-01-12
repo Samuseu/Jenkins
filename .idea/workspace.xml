@@ -4,7 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9868adca-913b-4722-836a-54c2a71cab22" name="Changes" comment="update" />
+    <list default="true" id="9868adca-913b-4722-836a-54c2a71cab22" name="Changes" comment="update">
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_20_20_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_20_20_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_20_20__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_23_04_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_23_04_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_23_04_[Changes]2/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_23_04__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_23_04__Changes_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_23_06_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_23_06_[Changes]1/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_01_2024_23_06__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demoqa/pages/RegistrationPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demoqa/pages/RegistrationPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demoqa/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demoqa/tests/TestBase.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,10 +77,10 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -83,26 +102,26 @@
     <option name="showVisibilityIcons" value="true" />
     <option name="sortKey" value="BY_TIME_DESCENDING" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Jenkins [allureReport].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Jenkins [allureServe].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Jenkins [assemble].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Jenkins [build].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Jenkins [downloadAllure].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Jenkins [init].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Jenkins [simple_test].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Jenkins [test].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Jenkins [wrapper].executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.RegistrationTests.practiceForm.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Влад/IdeaProjects/Jenkins/src/test/resources&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Влад/IdeaProjects/Jenkins/src/main/java/qa/quru/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Jenkins [allureReport].executor": "Run",
+    "Gradle.Jenkins [allureServe].executor": "Run",
+    "Gradle.Jenkins [assemble].executor": "Run",
+    "Gradle.Jenkins [build].executor": "Run",
+    "Gradle.Jenkins [downloadAllure].executor": "Run",
+    "Gradle.Jenkins [init].executor": "Run",
+    "Gradle.Jenkins [simple_test].executor": "Run",
+    "Gradle.Jenkins [test].executor": "Run",
+    "Gradle.Jenkins [wrapper].executor": "Run",
+    "Gradle.RegistrationTests.practiceForm.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Merging jenkins",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Влад/IdeaProjects/Jenkins/src/test/resources",
+    "onboarding.tips.debug.path": "C:/Users/Влад/IdeaProjects/Jenkins/src/main/java/qa/quru/Main.java"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Влад\IdeaProjects\Jenkins\src\test\resources" />
