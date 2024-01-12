@@ -23,16 +23,16 @@ public class TestBase {
     static void beforeAll() {
         Configuration.baseUrl = "https://demoqa.com";
         Configuration.browserSize = "1920x1080";
-//        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
-//
-//        DesiredCapabilities capabilities = new DesiredCapabilities();
-//        capabilities.setCapability("browserName", "chrome");
-//        capabilities.setCapability("browserVersion", "100.0");
-//        capabilities.setCapability("selenoid:options", Map.<String, Object>of(
-//                "enableVNC", true,
-//                "enableVideo", true
-//        ));
-//        Configuration.browserCapabilities = capabilities;
+        Configuration.remote = "http://localhost:8081/wd/hub";
+
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability("browserName", "chrome");
+        capabilities.setCapability("browserVersion", "100.0");
+        capabilities.setCapability("selenoid:options", Map.<String, Object>of(
+                "enableVNC", true,
+                "enableVideo", true
+        ));
+        Configuration.browserCapabilities = capabilities;
     }
     @BeforeEach
     void addListener(){
