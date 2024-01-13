@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9868adca-913b-4722-836a-54c2a71cab22" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/demoqa/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/demoqa/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,26 +87,26 @@
     <option name="showVisibilityIcons" value="true" />
     <option name="sortKey" value="BY_TIME_DESCENDING" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Jenkins [allureReport].executor": "Run",
-    "Gradle.Jenkins [allureServe].executor": "Run",
-    "Gradle.Jenkins [assemble].executor": "Run",
-    "Gradle.Jenkins [build].executor": "Run",
-    "Gradle.Jenkins [downloadAllure].executor": "Run",
-    "Gradle.Jenkins [init].executor": "Run",
-    "Gradle.Jenkins [simple_test].executor": "Run",
-    "Gradle.Jenkins [test].executor": "Run",
-    "Gradle.Jenkins [wrapper].executor": "Run",
-    "Gradle.RegistrationTests.practiceForm.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "jenkins",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Влад/IdeaProjects/Jenkins/src/test/resources",
-    "onboarding.tips.debug.path": "C:/Users/Влад/IdeaProjects/Jenkins/src/main/java/qa/quru/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Jenkins [allureReport].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Jenkins [allureServe].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Jenkins [assemble].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Jenkins [build].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Jenkins [downloadAllure].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Jenkins [init].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Jenkins [simple_test].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Jenkins [test].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Jenkins [wrapper].executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.RegistrationTests.practiceForm.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;jenkins&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Влад/IdeaProjects/Jenkins/src/test/resources&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Влад/IdeaProjects/Jenkins/src/main/java/qa/quru/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Влад\IdeaProjects\Jenkins\src\test\resources" />
@@ -300,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705103316571</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="update">
+      <option name="closed" value="true" />
+      <created>1705105544285</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1705105544285</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
