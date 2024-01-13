@@ -51,7 +51,7 @@ public class TestBase {
             /* How to enable video recording */
             put("enableVideo", true);
         }});
-        RemoteWebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), options);
+        RemoteWebDriver driver = new RemoteWebDriver(new URL("http://localhost:8888/wd/hub"), options);
     }
 
     @BeforeEach
