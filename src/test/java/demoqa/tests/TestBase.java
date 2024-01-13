@@ -23,7 +23,7 @@ public class TestBase {
     @BeforeAll
     static void beforeAll() throws MalformedURLException {
         Configuration.baseUrl = "https://demoqa.com";
-        Configuration.remote = "https://45.89.54.41:8888/wd/hub";
+        Configuration.remote = "https://localhost:8888/wd/hub";
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
