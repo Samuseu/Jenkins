@@ -8,6 +8,7 @@ import org.junit.jupiter.api.Tag;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
+
 public class RegistrationPage {
     CalendarComponents calendarComponents = new CalendarComponents();
     RegistrationResultsModal registrationResultsModal = new RegistrationResultsModal();
