@@ -36,7 +36,7 @@ public class RegistrationTests extends TestBase {
         registrationPage.virifyResultsModalAppears()
                 .virifyResult("Student Name", userName)
                 .virifyResult("Student Email", userEmail)
-                .virifyResult("Gender", "Males")
+                .virifyResult("Gender", "Male")
                 .virifyResult("Mobile", userNumber)
                 .virifyResult("Date of Birth", userBirthDay + " " + userBirthMonth + "," + userBirthYear)
 //                .virifyResult("Subjects", userSubject)
