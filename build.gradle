@@ -43,13 +43,8 @@ task simple_test(type: Test) {
     }
 }
 
-task remote_test(type: Test) {
+task remote_new(type: Test) {
     useJUnitPlatform {
-        includeTags("remote")
+        includeTags("remote_new")
     }
 }
-//def uiTest = tasks.register("uiTests", Test) {
-//    useJUnitPlatform {
-//        includeTags "UI"
-//    }
-//}
