@@ -21,7 +21,8 @@ public class TestBase {
 
     @BeforeAll
     static void beforeAll() throws MalformedURLException {
-        Configuration.baseUrl = "https://demoqa.com";
+//        Configuration.baseUrl = "https://demoqa.com";
+        Configuration.baseUrl = System.getProperty("base_url","https://demoqa.com");
         Configuration.remote = "http://selenoid:4444/wd/hub";
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
