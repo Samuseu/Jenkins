@@ -19,7 +19,6 @@ public class TestBase {
     RegistrationPage registrationPage = new RegistrationPage();
     TestData data = new TestData();
 
-
     @BeforeAll
     static void beforeAll() throws MalformedURLException {
         Configuration.baseUrl = "https://demoqa.com";

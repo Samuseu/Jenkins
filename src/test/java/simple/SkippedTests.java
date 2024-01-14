@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-@Tag("remote_new")
+@Tag("needed")
 public class SkippedTests {
 
     @Test
@@ -15,6 +15,7 @@ public class SkippedTests {
         assertTrue(false);
 
     }
+    @Tag("prod")
     @Test
     @Disabled("Some reason")
     void test2(){

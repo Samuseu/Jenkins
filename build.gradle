@@ -22,6 +22,11 @@ repositories {
     mavenCentral()
 }
 
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+
 dependencies {
     testImplementation(
             'org.junit.jupiter:junit-jupiter-engine:5.10.1',
@@ -32,19 +37,61 @@ dependencies {
     runtimeOnly 'org.aspectj:aspectjweaver:1.9.21'
 
 }
-
-test {
+// нужно значение которые перекидывать в код
+tasks.withType(Test) {
+    systemProperties(System.getProperties())
     useJUnitPlatform()
-}
 
-task simple_test(type: Test) {
-    useJUnitPlatform {
-        includeTags("simple")
+    testLogging {
+        lifecycle {
+            events "started", "skipped", "failed", "standard_error", "standard_out"
+            exceptionFormat "short"
+        }
     }
 }
 
-task remote_new(type: Test) {
+task smoke_tests(type: Test) {
     useJUnitPlatform {
-        includeTags("remote_new")
+        includeTags("smoke")
+    }
+}
+
+task one_property_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("one_property")
+    }
+}
+
+task hello_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("hello")
+    }
+}
+
+task two_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("one_property")
+        includeTags("hello")
+    }
+}
+
+task tag_example_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("needed", "negative")
+        excludeTags("prod")                 // исключаем тест из класса
+    }
+}
+
+help {
+    doFirst {
+        println ""
+        println "************************************************************************ "
+        println "***                                                                  *** "
+        println "*** Welcome to https://github.com/qa-guru/demoqa-test-16!            *** "
+        println "***                                                                  *** "
+        println "*** ./gradlew help                                                   *** "
+        println "***                                                                  *** "
+        println "************************************************************************ "
+        println ""
     }
 }
