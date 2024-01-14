@@ -1,10 +1,15 @@
 package demoqa.tests;
 
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
+import static io.qameta.allure.SeverityLevel.CRITICAL;
+@Feature("Authorisation")
 public class RegistrationTests extends TestBase {
-    @Tag("remote_new")
+    @Severity(CRITICAL)
     @Test
     void practiceForm() {
         String userName = data.firstName;
