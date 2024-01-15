@@ -1,0 +1,17 @@
+{
+  "base": {
+    "logo": "",
+    "project": "some project",
+    "environment": "s67",
+    "comment": "any comment here, @Samus67",
+    "reportLink": "",
+    "language": "ru",
+    "allureFolder": "build/allure-report/",
+    "enableChart": false
+  },
+  "telegram": {
+    "token": "",
+    "chat": "",
+    "replyTo": ""
+  }
+}
