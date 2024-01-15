@@ -19,18 +19,22 @@ public class TestBase {
     RegistrationPage registrationPage = new RegistrationPage();
     TestData data = new TestData();
 
-
     @BeforeAll
     static void beforeAll() throws MalformedURLException {
-        Configuration.baseUrl = "https://demoqa.com";
-        Configuration.remote = "http://localhost:8888/wd/hub";
+//        Configuration.baseUrl = "https://demoqa.com";
+        Configuration.baseUrl = System.getProperty("base_url","https://demoqa.com");
+//        Configuration.remote = "http://selenoid:4444/wd/hub";
+        Configuration.remote = System.getProperty("remote_selenoid","http://selenoid:4444/wd/hub");
+        Configuration.browser=System.getProperty("browser","chrome");
+        Configuration.browserSize=System.getProperty("browser_size","1920x1080");
+
         DesiredCapabilities capabilities = new DesiredCapabilities();
-        capabilities.setCapability("browserName", "chrome");
-        capabilities.setCapability("browserVersion", "120.0");
         capabilities.setCapability("selenoid:options", Map.<String, Object>of(
                 "enableVNC", true,
                 "enableVideo", true
         ));
+        Configuration.browserCapabilities = capabilities;
+
     }
 
     @BeforeEach
