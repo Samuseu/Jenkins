@@ -1,4 +1,4 @@
-gradle
+gradle/wrapper/gradle-wrapper.properties
 .idea
 notifications/draft.txt
 notifications/config.json
